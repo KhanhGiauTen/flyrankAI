@@ -1,0 +1,61 @@
+{
+  "seed": 42,
+  "split": "client_holdout",
+  "train_rows": 12759,
+  "test_rows": 3578,
+  "test_clients": 6,
+  "test_proxy_base_rate": 0.6106763555058692,
+  "best_model": "random_forest",
+  "comparison": [
+    {
+      "method": "base_rate",
+      "precision_at_20": 0.65,
+      "precision_at_50": 0.58,
+      "average_precision": 0.6106763555,
+      "roc_auc": 0.5
+    },
+    {
+      "method": "week4_rule",
+      "precision_at_20": 0.85,
+      "precision_at_50": 0.84,
+      "average_precision": 0.6946649508,
+      "roc_auc": 0.6184040503
+    },
+    {
+      "method": "logistic_regression",
+      "precision_at_20": 0.8,
+      "precision_at_50": 0.76,
+      "average_precision": 0.7093424954,
+      "roc_auc": 0.617424159
+    },
+    {
+      "method": "decision_tree",
+      "precision_at_20": 0.65,
+      "precision_at_50": 0.82,
+      "average_precision": 0.677755422,
+      "roc_auc": 0.6141289974
+    },
+    {
+      "method": "random_forest",
+      "precision_at_20": 0.85,
+      "precision_at_50": 0.84,
+      "average_precision": 0.7091193942,
+      "roc_auc": 0.6204878594
+    }
+  ],
+  "excluded_direct_answer_fields": [
+    "clicks_last_30d",
+    "clicks_prev_30d",
+    "client_id",
+    "content_id",
+    "impressions_last_30d",
+    "impressions_prev_30d",
+    "is_declining_proxy",
+    "model_used",
+    "provider_used",
+    "sessions_last_30d",
+    "sessions_prev_30d",
+    "trend_direction",
+    "trend_pct"
+  ]
+}

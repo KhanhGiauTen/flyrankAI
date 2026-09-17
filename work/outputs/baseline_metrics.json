@@ -1,0 +1,12 @@
+{
+  "rows_scored": 16337,
+  "rows_prioritized": 7961,
+  "proxy_base_rate": 0.602619820040399,
+  "precision_at_20": 0.7,
+  "precision_at_50": 0.68,
+  "score_inputs": [
+    "impressions_90d",
+    "avg_position",
+    "ctr"
+  ]
+}

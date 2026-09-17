@@ -1,0 +1,36 @@
+{
+  "title": "Content Refresh Opportunity Scoring",
+  "author": "Khanh Nguyen Quoc",
+  "lane": "Refresh / Content Opportunity Scoring",
+  "dataset_rows": 30000,
+  "pseudonymized_clients": 32,
+  "split": "client_holdout",
+  "test_clients": 6,
+  "test_proxy_base_rate": 0.6106763555058692,
+  "recommended_method": "week4_rule",
+  "week4_rule": {
+    "precision_at_20": 0.85,
+    "precision_at_50": 0.84,
+    "average_precision": 0.6946649508,
+    "roc_auc": 0.6184040503
+  },
+  "random_forest": {
+    "precision_at_20": 0.85,
+    "precision_at_50": 0.84,
+    "average_precision": 0.7091193942,
+    "roc_auc": 0.6204878594
+  },
+  "top10_public_safe_ids": [
+    "content_c8e9d6ab9013",
+    "content_453722754fea",
+    "content_39881853ef0c",
+    "content_c84a0ab98e90",
+    "content_0919dd345d80",
+    "content_d274ac4158ef",
+    "content_e5f459e737b7",
+    "content_c1fe78bc4e37",
+    "content_339b357d04c7",
+    "content_65114d89496d"
+  ],
+  "seed": 42
+}
